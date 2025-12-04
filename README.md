@@ -6,8 +6,8 @@ Il s'agit dune pipeline automatisé pour l'analyse et la visualisation de varian
 
 ## 📝 Notes importantes
 - **Pour votre analyse remplacer les fichiers fastq et fasta par vos propres fichiers** : Ce sont des données d'exemples pour la pipeline
+- **Installer tous les outils et fichiers dans les repertoires correspondant pour une meilleure efficacité** 
 - **Tous les scripts sont interactifs** : Cette pipeline vous guide étape par étape jusqu'à la visualisation de vos variants
-- Installer tous les outils et fichiers dans les repertoires correspondant pour une meilleure efficacité 
 - **Le filtrage DP ≥ 3** est le plus recommandé pour réduire les faux positifs
 - **L'ordre d'exécution** des scripts est important (respectez la séquence indiquée)
 
@@ -17,7 +17,7 @@ Il s'agit dune pipeline automatisé pour l'analyse et la visualisation de varian
 - Samtools pour la manipulation de fichiers BAM/SAM
 - Bcftools pour la génération de fichiers BCF/VCF
 - Kallisto pour la quantification des reads
-- SnpSift.jar pour le filtrage des SNPs
+- SnpsefF.jar pour le filtrage des SNPs
 
 
 ## 📦 Installation des outils
