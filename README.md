@@ -4,6 +4,13 @@ Il s'agit dune pipeline automatisé pour l'analyse et la visualisation de varian
 - Identifier les variants et les SNPs présent
 - Faire le filtrage et la visualisation des variants avec IGV
 
+## 📝 Notes importantes
+- **Pour votre analyse remplacer les fichiers fastq et fasta par vos propres fichiers** : Ce sont des données d'exemples pour la pipeline
+- **Tous les scripts sont interactifs** : Cette pipeline vous guide étape par étape jusqu'à la visualisation de vos variants
+- Installer tous les outils et fichiers dans les repertoires correspondant pour une meilleure efficacité 
+- **Le filtrage DP ≥ 3** est le plus recommandé pour réduire les faux positifs
+- **L'ordre d'exécution** des scripts est important (respectez la séquence indiquée)
+
 
 ## Outils nécessaires
 - BWA pour l'alignement de séquences
@@ -129,14 +136,6 @@ Les fichiers VCF filtrés contiennent les SNPs détectés avec :
 - Nucléotide alternatif (variant)
 - Profondeur de lecture (DP)
 - Qualité du variant
-
-
-## 📝 Notes importantes
-
-- **Tous les scripts sont interactifs** : Cette pipeline vous guide étape par étape jusqu'à la visualisation de vos variants 
-- **Le filtrage DP ≥ 3** est recommandé pour réduire les faux positifs
-- **L'ordre d'exécution** des scripts est important (respectez la séquence indiquée)
-
 
 # Auteur
 - El Hadji Omar Dia
