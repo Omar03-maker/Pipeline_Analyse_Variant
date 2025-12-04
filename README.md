@@ -22,7 +22,7 @@ Il s'agit dune pipeline automatisé pour l'analyse et la visualisation de varian
 
 ## 📦 Installation des outils
 ### 1. Installation BWA, Samtools et Bcftools
-#### Methode 1 : 
+#### Methode 1 : En ligne de commande 
 sudo apt-get update
 
 sudo apt-get install bwa
