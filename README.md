@@ -1,4 +1,4 @@
-# PIPELIENE D'ANALYSE DE VARIANTS 
+# PIPELINE D'ANALYSE DE VARIANTS 
 Il s'agit dune pipeline automatisé pour l'analyse et la visualisation de variants à partir de données de sequencage génomique (NGS). Dans notre exemple nous avons utilisé la sequence de reference de l'espece *Mycobacterium tuberculosis*. Cette pipeline permet notamment de : 
 - Quantifier les reads qui s'alignent sur le génome de *M.uberculosis* (Reference : AL123456)
 - Identifier les variants et les SNPs présent
